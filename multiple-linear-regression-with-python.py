@@ -12,7 +12,7 @@ from sklearn.linear_model import LinearRegression
 df = pd.read_csv("multiple-linear-regression-dataset.csv",sep = ";")
 
 x = df.iloc[:,[0,2]].values
-y = df.maas.values.reshape(-1,1)
+y = df.Salary.values.reshape(-1,1)
 
 # %% fitting data
 multiple_linear_regression = LinearRegression()
